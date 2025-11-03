@@ -1,0 +1,41 @@
+{
+  "name": "deepl-translator-bot",
+  "version": "2.0.0",
+  "description": "Multi-format file translation tool supporting YAML, JSON, TXT, SNBT, Properties, INI, XML, and TOML using DeepL API",
+  "main": "src/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MRsuffixx/TranslatorBot.git"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "deepl",
+    "translation",
+    "minecraft",
+    "localization",
+    "yaml",
+    "json",
+    "xml",
+    "toml",
+    "properties",
+    "ini"
+  ],
+  "author": "MRsuffixx",
+  "license": "MIT",
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "dotenv": "^16.4.5",
+    "fast-xml-parser": "^4.3.4",
+    "fs-extra": "^11.2.0",
+    "ini": "^4.1.1",
+    "inquirer": "^9.2.15",
+    "node-fetch": "^3.3.2",
+    "properties-reader": "^2.3.0",
+    "toml": "^3.0.0",
+    "yaml": "^2.4.1"
+  }
+}

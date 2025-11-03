@@ -1,0 +1,60 @@
+# Minecraft Server Configuration
+# TOML Format Sample File
+
+[server]
+name = "Epic Minecraft Server"
+description = "The best place for Minecraft adventures!"
+motd = "&6Welcome &bto &aour &cawesome &eserver!"
+version = "1.20.1"
+
+[messages]
+welcome = "Welcome to the server, {player}!"
+goodbye = "See you next time, {player}!"
+daily_reward = "Daily reward claimed: {item}"
+level_up = "Congratulations! You reached level {level}"
+
+[player.join]
+message = "{player} has joined the game"
+broadcast = "&a{player} &ejoined the server!"
+
+[player.leave]
+message = "{player} has left the game"
+broadcast = "&c{player} &eleft the server"
+
+[player.death]
+pvp = "{player} was slain by {killer}"
+mob = "{player} was killed by {mob}"
+fall = "{player} fell from a high place"
+
+[commands]
+help = "Use /help to see all available commands"
+teleport = "Teleporting to {location}..."
+home = "Welcome home, {player}!"
+spawn = "Teleported to spawn point"
+warp = "Warped to {destination}"
+
+[errors]
+no_permission = "&cYou don't have permission to use this command!"
+player_not_found = "&cPlayer %s was not found"
+invalid_syntax = "&cInvalid command syntax. Use /help"
+cooldown = "&eWait {time} seconds before using this again"
+world_not_found = "&cWorld {world} does not exist"
+
+[shop]
+buy_success = "Successfully purchased {item} for ${price}"
+sell_success = "Successfully sold {item} for ${price}"
+balance = "Your current balance: ${amount}"
+insufficient_funds = "&cInsufficient funds! You need ${required}"
+
+[quests.notifications]
+started = "Quest started: {quest_name}"
+completed = "Quest completed! Reward: {reward}"
+progress = "Quest progress: {current}/{total}"
+failed = "Quest failed: {reason}"
+objective = "New objective: {objective}"
+
+[announcements]
+restart = "&eServer will restart in {time} minutes"
+maintenance = "&cServer maintenance: {reason}"
+event = "&6Special event: {event_name} is now active!"
+update = "&aServer updated to version {version}"

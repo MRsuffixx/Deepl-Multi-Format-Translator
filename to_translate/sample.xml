@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+    <messages>
+        <welcome>Welcome to our Minecraft server!</welcome>
+        <goodbye>Thanks for playing on our server!</goodbye>
+        <motd>&6Epic &bMinecraft &aServer</motd>
+    </messages>
+    
+    <player>
+        <join>{player} joined the game</join>
+        <leave>{player} left the game</leave>
+        <death>{player} was killed by {killer}</death>
+        <achievement>{player} earned the achievement: {achievement}</achievement>
+    </player>
+    
+    <commands>
+        <help>Available commands: /help, /spawn, /home</help>
+        <teleport>Teleporting to {location}...</teleport>
+        <home>Welcome back home, {player}!</home>
+        <spawn>Teleported to spawn point</spawn>
+    </commands>
+    
+    <errors>
+        <permission>&cYou don't have permission!</permission>
+        <notfound>&cPlayer %s not found</notfound>
+        <cooldown>&eWait {time} seconds</cooldown>
+        <invalid>&cInvalid command syntax</invalid>
+    </errors>
+    
+    <shop>
+        <buy>Purchased {item} for ${price}</buy>
+        <sell>Sold {item} for ${price}</sell>
+        <balance>Balance: ${amount}</balance>
+        <insufficient>&cNot enough money!</insufficient>
+    </shop>
+    
+    <quests>
+        <started>Quest started: {quest_name}</started>
+        <completed>Quest completed! Reward: {reward}</completed>
+        <progress>Progress: {current}/{total}</progress>
+        <failed>Quest failed: {reason}</failed>
+    </quests>
+</localization>
