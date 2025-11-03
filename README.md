@@ -1,4 +1,4 @@
-# 🌍 DeepL Translation Bot
+# 🌍 DeepL Multi Format Translator
 
 <div align="center">
 
@@ -76,7 +76,7 @@ Perfect for Minecraft server administrators and plugin developers:
 
 ```bash
 # Clone the repository
-git clone https://github.com/MRsuffixx/TranslatorBot.git
+git clone https://github.com/MRsuffixx/Deepl-Multi-Format-Translator.git
 cd TranslatorBot
 
 # Install dependencies
@@ -94,7 +94,7 @@ npm start
 
 1. **Clone or Download**
    ```bash
-   git clone https://github.com/MRsuffixx/TranslatorBot.git
+   git clone https://github.com/MRsuffixx/Deepl-Multi-Format-Translator.git
    cd TranslatorBot
    ```
 
@@ -722,7 +722,7 @@ Contributions are welcome! Here's how you can help:
 
 ### Development Setup
 ```bash
-git clone https://github.com/MRsuffixx/TranslatorBot.git
+git clone https://github.com/MRsuffixx/Deepl-Multi-Format-Translator.git
 cd TranslatorBot
 npm install
 cp .env.example .env
@@ -781,8 +781,8 @@ SOFTWARE.
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/MRsuffixx/TranslatorBot/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/MRsuffixx/TranslatorBot/discussions)
+- **Issues**: [GitHub Issues](https://github.com/MRsuffixx/Deepl-Multi-Format-Translator/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/MRsuffixx/Deepl-Multi-Format-Translator/discussions)
 - **Email**: Create an issue for support
 
 ---
